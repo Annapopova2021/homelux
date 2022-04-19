@@ -406,22 +406,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     padding: 35px 0px 0px 0px;
 }
 
-.benefits__body {
+.bnefits__body {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .benefits__column {
     flex: 0 1 33.333%;
     /* max-width: 314px; */
     box-shadow: 5px 5px 80px rgb(241, 241, 241);
     margin: 87px 15px 0px 15px;
     width: 360px;
-    height:228px;
-    
+    height:228px;  
 }
-
 .benefits__column {
     background-color: #fff;
 }
@@ -461,6 +458,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     max-width: 262px;
     margin: 0 auto;
 
+}
+
+.benefits__body {
+    display: flex;
 }
 .info__text {
     font-family: "MR";
@@ -601,25 +602,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
         font-size: 14px;
     }  
 }
-
-
-
-
-
-
-
-
-/* @media (max-width: 1040px) {
-	.practice__column {
-		flex: 0 1 50%;
-	}
-}
-@media (max-width: 630px) {
-	.practice__column {
-		flex: 0 1 100%;
-	}
-} */
-
 
 /*-------------------------------*/
 
@@ -909,6 +891,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     transform: translate(0px, 0px);
     opacity: 1;
 }
+
 /*--------*/
 /*-------------------------------*/
 
